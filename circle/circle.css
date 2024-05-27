@@ -1,0 +1,18 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+#chartDiv {
+  max-width: 100%;
+  height: 300px;
+  display: inline-block;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100%;
+}

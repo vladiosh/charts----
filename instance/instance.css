@@ -1,0 +1,16 @@
+#myChart {
+  height: 100px;
+  width: 100%;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100%;
+}
+
+.zingchart-focus .zc-bars path {
+  height: 200px !important;
+}
