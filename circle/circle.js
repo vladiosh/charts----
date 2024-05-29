@@ -44,6 +44,7 @@ data.forEach((serie) => {
 let chartConfig = {
   type: "ring",
 
+  
   gui: {
     menu: {
       visible: false,
