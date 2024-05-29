@@ -20,6 +20,7 @@ let data = [
   {
     values: [105],
     text: "Кримінальні <b style='text-decoration: none;'>%v</b>",
+
     backgroundColor: "#17d317",
     highlightState: { borderColor: "#17d317", borderWidth: "7px" },
   },
@@ -43,15 +44,13 @@ data.forEach((serie) => {
 let chartConfig = {
   type: "ring",
 
-  globals: {
-    fontColor: "#000",
-  },
   gui: {
     menu: {
       visible: false,
     },
   },
   legend: {
+    highlightLegend: true,
     highlightPlot: true,
     toggleAction: "none",
     align: "right",
@@ -66,6 +65,10 @@ let chartConfig = {
       fontSize: 16,
       cursor: "pointer",
       underline: true,
+
+      highlightState: {
+        fontColor: "green",
+      },
     },
   },
 
