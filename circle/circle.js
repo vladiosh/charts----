@@ -33,6 +33,9 @@ let data = [
   },
 ];
 
+
+// _____________________
+
 data.forEach((serie) => {
   serie.hoverState = {
     visible: true,
@@ -45,6 +48,7 @@ let chartConfig = {
   type: "ring",
 
   gui: {
+
     menu: {
       visible: false,
     },
